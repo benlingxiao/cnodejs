@@ -1,0 +1,107 @@
+/**
+ * app页面级别样式
+ */
+body{
+	font-family: "microsoft yahei" !important;
+	font-size: 14px;
+}
+div,p,label,a,h1,h2,h3,h4,h5,h6,li,th,td{
+	font-family: "microsoft yahei";
+}
+
+.position-re{position: relative;}
+.position-ab{position: absolute;}
+ul{padding-left:0px;}
+li{list-style: none;}
+.display-inline{display: inline-block !important;}
+.display-block{display: block !important;}
+.display-none{display: none;}
+
+.pt-5{padding-top:-5px;}.pt5{padding-top:5px;}.pt10{padding-top:10px;}.pt15{padding-top:15px;}.pt20{padding-top:20px;}.pt25{padding-top:25px;}.pt30{padding-top:30px;}
+.pb-5{padding-bottom:-5px;}.pb5{padding-bottom:5px;}.pb10{padding-bottom:10px;}.pb15{padding-bottom:15px;}.pb20{padding-bottom:20px;}.pb25{padding-bottom:25px;}.pb30{padding-bottom:30px;}
+.pl-5{padding-left:-5px;}.pl0{padding-left:0px;}.pl5{padding-left:5px;}.pl10{padding-left:10px;}.pl15{padding-left:15px;}.pl20{padding-left:20px;}.pl25{padding-left:25px;}.pl30{padding-left:30px;}
+.pr-5{padding-right:-5px;}.pr5{padding-right:5px;}.pr10{padding-right:10px;}.pr15{padding-right:15px;}.pr20{padding-right:20px;}.pr25{padding-right:25px;}.pr30{padding-right:30px;}
+.pr0{padding-right:0px;}
+.pr50{padding-right:50px;}
+.pt50{padding-top:50px;}
+
+.mt-5{margin-top:-5px;}.mt0{margin-top:0px;}.mt5{margin-top:5px;}.mt10{margin-top:10px;}.mt15{margin-top:15px;}.mt20{margin-top:20px;}.mt25{margin-top:25px;}.mt30{margin-top:30px;}
+.mb-5{margin-bottom:-5px;}.mb0{margin-bottom:0px;}.mb5{margin-bottom:5px;}.mb10{margin-bottom:10px;}.mb15{margin-bottom:15px;}.mb20{margin-bottom:20px;}.mb25{margin-bottom:25px;}.mb30{margin-bottom:30px;}
+.ml-5{margin-left:-5px;}.ml0{margin-left:0px;}.ml5{margin-left:5px;}.ml10{margin-left:10px;}.ml15{margin-left:15px;}.ml20{margin-left:20px;}.ml25{margin-left:25px;}.ml30{margin-left:30px;}
+.mr-5{margin-right:-5px;}.mr0{margin-right:0px;}.mr5{margin-right:5px;}.mr10{margin-right:10px;}.mr15{margin-right:15px;}.mr20{margin-right:20px;}.mr25{margin-right:25px;}.mr30{margin-right:30px;}
+.ml60{margin-left: 60px;}
+.ml50{margin-left: 50px;}
+.ml40{margin-left: 40px;}
+.ml80{margin-left: 80px;}
+.mt50{margin-top: 50px;}.mt80{margin-top: 80px;}.mt100{margin-top: 100px;}
+.mb50{margin-bottom: 50px;}.mb80{margin-bottom: 80px;}.mb100{margin-bottom: 100px;}
+
+.block1em{display: inline-block;width: 1em;height: 1em;}
+.b600-text{font-weight: 600;}
+.b400-text{font-weight: 400;}
+
+/*改变默认颜色*/
+a,.mui-bar .mui-btn-link{color: #005f3c;}
+.default-text{color:#005f3c;}
+
+.red-text{color: #dc4947;}
+.blue-text{color: blue;}
+.yellow-text{color: yellow;}
+.orange-text{color: orange;}
+.gray-text{color: gray;}
+.green-text{color: green;}
+.white-text{color:#fff;}
+.gray666-text{color:#666;}
+.gray333-text{color:#333;}
+.gray999-text{color:#999;}
+.grayccc-text{color:#ccc;}
+
+
+.font70{font-size:70px;}
+.font40{font-size:40px;}
+.font30{font-size:30px;}
+.font22{font-size:22px;}
+.font20{font-size:20px;}
+.font18{font-size:18px;}
+.font12{font-size:12px;}
+.font14{font-size:14px;}
+.font16{font-size:16px;}
+.verticalAlign-top{vertical-align: top;}
+.verticalAlign-middle{vertical-align: middle;}
+.verticalFlex-center{display: flex;justify-content: center;}
+.border-right{border-right:1px solid #e0e0e0;}
+.border-left{border-left:1px solid #e0e0e0;}
+.border-top{border-top:1px solid #e0e0e0;}
+.border-bottom{border-bottom:1px solid #e0e0e0;}
+
+
+.pointer{cursor:pointer !important;}
+.not-allowed{cursor:not-allowed !important;}
+
+.pointer{cursor:pointer !important;}
+.not-allowed{cursor:not-allowed !important;}
+
+.ellipsis{display: inline-block;width:5em;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;vertical-align: middle;}
+.img-circle{border-radius: 50%;}
+/*footer*/
+.app-footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+.app-footer ul{
+	border-top: 1px solid #e1e1e1;
+	background: #fff;
+	box-shadow: 2px 2px 2px #f1f1f1;
+}
+.app-footer ul li{
+	width: 25%;
+	text-align: center;
+	float: left;
+	line-height: 40px;
+	border-right: 1px solid #e1e1e1;
+}
+.app-footer ul li:nth-last-child(1){
+	border-right: none;
+}
+

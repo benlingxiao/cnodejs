@@ -1,0 +1,66 @@
+/**
+ * 页面内部的详细部分
+ */
+/*导航栏*/
+.mui-off-canvas-wrap .mui-bar{
+	box-shadow: 0px 0px 2px #005F3C;
+	-webkit-box-shadow: 0px 0px 2px #005F3C;
+}
+.mui-bar{
+	background: #fff;
+	color: #005F3C;
+	box-shadow: 0px 0px 2px #005F3C;
+}
+.mui-title{
+	color: #005F3C;
+	font-weight: normal;
+}
+/*侧边栏*/
+.app-left-menu{
+	background: #fff;
+	height: 100vh;
+}
+.app-menu-user{
+	background: url('../images/images/yuantiao.jpg') no-repeat;
+	padding: 30px 20px 15px 15px;
+}
+.app-menu-portrait{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+.app-menu-username{
+	color: #fff;
+	line-height: 31px;
+}
+/**修改列表的底部边框，到左侧边缘*/
+.app-list-noborder .mui-table-view-cell:after{height: 0;}
+.app-list .mui-table-view-cell:after{left: 0;}
+
+.mui-table-view-cell.mui-active a{
+	color: #005f3c;
+}
+
+/**
+ * 内容区的布局
+ */
+.app-list-title{
+	font-size: 16px;
+	font-weight: normal;
+	margin-bottom: 10px;
+	color: #333;
+}
+.app-list-typeMark{
+	display: inline-block;
+	line-height: 17px;
+	background: #ccc;
+	color: #999;
+	font-size: 12px;
+	border-radius: 4px;
+	padding: 0 4px;
+	margin-right: 15px;
+}
+.app-list-typeMark.active{
+	background: #005F3C;
+	color: #fff;
+}
